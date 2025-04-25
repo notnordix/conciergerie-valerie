@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff5e9;
+  --foreground: #4a3f35;
+  --footer: #e6cdb1;
+  --accent: #c8b6a6;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.font-serif {
+  font-family: "Optima", serif;
+}
+
+.font-sans {
+  font-family: var(--font-inter);
+}
+
+.hero-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #8a7a6d;
+  position: relative;
+  display: inline-block;
+  font-family: "Optima", serif;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 1px;
+  background-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .compact-mobile {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .compact-mobile h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .compact-mobile p {
+    margin-bottom: 0.75rem;
+  }
+}
