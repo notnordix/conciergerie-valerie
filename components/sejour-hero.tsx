@@ -3,15 +3,15 @@
 import { motion } from "framer-motion"
 import { useTranslation } from "@/lib/language-context"
 
-export default function ServicesHero() {
+export default function SejourHero() {
   const { t } = useTranslation()
 
   return (
     <section className="relative w-full">
       <div className="w-full aspect-[3/4] sm:aspect-[16/9] md:aspect-[21/6] relative overflow-hidden">
         <img
-          src="/13.jpg"
-          alt="Luxury villa services"
+          src="/17.jpg"
+          alt="Luxury stay in Marrakech"
           className="w-full h-full object-cover"
           loading="eager"
         />
@@ -32,7 +32,7 @@ export default function ServicesHero() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="text-4xl md:text-5xl lg:text-6xl font-serif tracking-wide text-white drop-shadow-md"
               >
-                {t("servicesPage.hero.title")}
+                {t("sejourPage.hero.title")}
               </motion.h1>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -40,6 +40,14 @@ export default function ServicesHero() {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="h-1 w-20 bg-white mt-4"
               ></motion.div>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.7 }}
+                className="mt-4 text-white/90 text-lg md:text-xl max-w-md"
+              >
+                {t("sejourPage.hero.subtitle")}
+              </motion.p>
             </motion.div>
           </div>
         </div>

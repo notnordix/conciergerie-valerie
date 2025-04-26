@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <div className="relative w-full h-full">
           <img
-            src="https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1600&auto=format&fit=crop"
+            src="/14.jpg"
             alt="Luxury villa in Marrakech"
             className="w-full h-full object-cover"
             loading="eager"

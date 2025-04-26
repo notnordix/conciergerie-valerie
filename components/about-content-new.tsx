@@ -51,7 +51,7 @@ export default function AboutContent() {
           <motion.div variants={itemVariants} className="grid grid-cols-2 gap-4">
             <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-md">
               <img
-                src="https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=400&auto=format&fit=crop"
+                src="/6.jpg"
                 alt="Luxury villa"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />
@@ -59,7 +59,7 @@ export default function AboutContent() {
             </div>
             <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-md mt-8">
               <img
-                src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=400&auto=format&fit=crop"
+                src="/3.jpg"
                 alt="Villa interior"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />
@@ -78,7 +78,7 @@ export default function AboutContent() {
           <motion.div variants={itemVariants} className="order-2 lg:order-1">
             <div className="aspect-[16/9] relative overflow-hidden rounded-lg shadow-md">
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop"
+                src="/2.jpg"
                 alt="Luxury villa in Marrakech"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />

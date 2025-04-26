@@ -83,14 +83,14 @@ export default function About() {
               <div className="space-y-3">
                 <div className="aspect-[3/4] overflow-hidden md:rounded-md">
                   <img
-                    src="https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=400&auto=format&fit=crop"
+                    src="/2.jpg"
                     alt="Luxury villa"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-square overflow-hidden md:rounded-md">
                   <img
-                    src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=400&auto=format&fit=crop"
+                    src="/3.jpg"
                     alt="Villa interior"
                     className="w-full h-full object-cover"
                   />
@@ -99,14 +99,14 @@ export default function About() {
               <div className="mt-6 space-y-3">
                 <div className="aspect-square overflow-hidden md:rounded-md">
                   <img
-                    src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=400&auto=format&fit=crop"
+                    src="/4.jpg"
                     alt="Villa pool"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-[3/4] overflow-hidden md:rounded-md">
                   <img
-                    src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=400&auto=format&fit=crop"
+                    src="/5.jpg"
                     alt="Villa garden"
                     className="w-full h-full object-cover"
                   />

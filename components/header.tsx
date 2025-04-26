@@ -87,11 +87,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
-                src={
-                  scrolled
-                    ? "/logo.png"
-                    : "/white-logo.png"
-                }
+                src={scrolled ? "/logo.png" : "/white-logo.png"}
                 alt="Conciergerie by Valérie"
                 width={180}
                 height={60}
@@ -166,13 +162,7 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 {/* Menu Header - fixed at top */}
                 <div className="sticky top-0 z-10 flex items-center justify-between p-5 border-b border-gray-100 bg-white">
-                  <Image
-                    src="/logo.png"
-                    alt="Conciergerie by Valérie"
-                    width={120}
-                    height={40}
-                    className="h-8 w-auto"
-                  />
+                  <Image src="/logo.png" alt="Conciergerie by Valérie" width={120} height={40} className="h-8 w-auto" />
                   <button
                     onClick={() => setIsMenuOpen(false)}
                     className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 transition-colors"
@@ -217,6 +207,7 @@ function NavLinks({ pathname = "/", scrolled = false }: { pathname?: string; scr
     { name: t("nav.home"), href: "/" },
     { name: t("nav.about"), href: "/about" },
     { name: t("nav.services"), href: "/services" },
+    { name: t("nav.sejour"), href: "/sejour" },
     { name: t("nav.contact"), href: "/contact" },
   ]
 
@@ -256,6 +247,7 @@ function MobileNavLinks({
     { name: t("nav.home"), href: "/" },
     { name: t("nav.about"), href: "/about" },
     { name: t("nav.services"), href: "/services" },
+    { name: t("nav.sejour"), href: "/sejour" },
     { name: t("nav.contact"), href: "/contact" },
   ]
 

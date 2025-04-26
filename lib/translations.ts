@@ -136,6 +136,43 @@ export type TranslationKey =
   | "contactPage.form.success.title"
   | "contactPage.form.success.message"
 
+  // Sejour page
+  | "nav.sejour"
+  | "sejourPage.hero.title"
+  | "sejourPage.hero.subtitle"
+  | "sejourPage.content.title"
+  | "sejourPage.content.subtitle"
+  | "sejourPage.accommodations.title"
+  | "sejourPage.accommodations.description"
+  | "sejourPage.transfers.title"
+  | "sejourPage.transfers.description"
+  | "sejourPage.experiences.title"
+  | "sejourPage.experiences.description"
+  | "sejourPage.experiences.wellness.title"
+  | "sejourPage.experiences.wellness.description"
+  | "sejourPage.experiences.desert.title"
+  | "sejourPage.experiences.desert.description"
+  | "sejourPage.experiences.desert.bullet1"
+  | "sejourPage.experiences.desert.bullet2"
+  | "sejourPage.experiences.adventures.title"
+  | "sejourPage.experiences.adventures.description"
+  | "sejourPage.experiences.adventures.bullet1"
+  | "sejourPage.experiences.adventures.bullet2"
+  | "sejourPage.experiences.adventures.bullet3"
+  | "sejourPage.experiences.adventures.bullet4"
+  | "sejourPage.experiences.adventures.bullet5"
+  | "sejourPage.experiences.adventures.bullet6"
+  | "sejourPage.experiences.adventures.bullet7"
+  | "sejourPage.dining.title"
+  | "sejourPage.dining.description"
+  | "sejourPage.excursions.title"
+  | "sejourPage.excursions.description"
+  | "sejourPage.excursions.bullet1"
+  | "sejourPage.excursions.bullet2"
+  | "sejourPage.excursions.bullet3"
+  | "sejourPage.concierge.title"
+  | "sejourPage.concierge.description"
+
 export const translations: Record<Language, Record<TranslationKey, string>> = {
   fr: {
     // Navigation
@@ -333,6 +370,70 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     "contactPage.form.success.title": "Message envoyé avec succès!",
     "contactPage.form.success.message":
       "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.",
+
+    // Sejour page
+    "nav.sejour": "SÉJOUR SUR MESURE",
+    "sejourPage.hero.title": "POUR UN SÉJOUR SUR MESURE",
+    "sejourPage.hero.subtitle": "Des expériences exclusives pour un séjour inoubliable à Marrakech",
+    "sejourPage.content.title": "SERVICES EXCLUSIFS",
+    "sejourPage.content.subtitle": "Découvrez nos prestations de luxe pour un séjour d'exception à Marrakech",
+
+    "sejourPage.accommodations.title": "Hébergements Signature",
+    "sejourPage.accommodations.description":
+      "Nous sélectionnons pour vous les plus prestigieuses adresses de Marrakech: villas confidentielles, riads de charme ou hôtels de renom. Chaque lieu est choisi avec soin pour son raffinement, son atmosphère et son service irréprochable.",
+
+    "sejourPage.transfers.title": "Transferts Élégance",
+    "sejourPage.transfers.description":
+      "Voyagez avec confort et distinction. Accueil personnalisé à l'aéroport, transferts privés en berline de luxe ou 4x4 premium… Nos chauffeurs sont à votre service, à toute heure.",
+
+    "sejourPage.experiences.title": "Moments d'Exception & Expériences Uniques",
+    "sejourPage.experiences.description":
+      "Vivez des moments inoubliables grâce à nos expériences exclusives, conçues pour vous faire découvrir Marrakech sous un angle privilégié.",
+
+    "sejourPage.experiences.wellness.title": "Bien-être Royal",
+    "sejourPage.experiences.wellness.description":
+      "Accès exclusif aux plus somptueux spas de la ville ocre, véritables havres de paix alliant traditions marocaines et soins d'excellence.",
+
+    "sejourPage.experiences.desert.title": "Évasion dans le Désert",
+    "sejourPage.experiences.desert.description":
+      "Découvrez la magie du désert marocain à travers nos expériences exclusives.",
+    "sejourPage.experiences.desert.bullet1":
+      "Dîner privé sous les étoiles : dans un décor féerique, vivez une soirée digne des Mille et Une Nuits.",
+    "sejourPage.experiences.desert.bullet2":
+      "Nuitée de luxe en bivouac : silence, élégance et ciel étoilé… un luxe rare au cœur des dunes.",
+
+    "sejourPage.experiences.adventures.title": "Aventures Signature",
+    "sejourPage.experiences.adventures.description":
+      "Des activités exclusives pour tous les goûts et toutes les envies.",
+    "sejourPage.experiences.adventures.bullet1":
+      "Excursions en quad ou buggy dans les décors lunaires des palmeraies et plateaux désertiques.",
+    "sejourPage.experiences.adventures.bullet2":
+      "Vol en montgolfière à l'aube, pour embrasser Marrakech et l'Atlas d'un regard.",
+    "sejourPage.experiences.adventures.bullet3":
+      "Séances de golf sur des greens d'exception entre luxe, sport et nature.",
+    "sejourPage.experiences.adventures.bullet4":
+      "Balades privées en trottinette électrique dans la médina ou la palmeraie.",
+    "sejourPage.experiences.adventures.bullet5":
+      "Cours privés de cuisine marocaine, avec chef à domicile ou en immersion dans un riad d'exception.",
+    "sejourPage.experiences.adventures.bullet6":
+      "Karting VIP : sensations fortes dans un cadre sécurisé, parfait pour les familles ou groupes d'amis.",
+    "sejourPage.experiences.adventures.bullet7": "Ski nautique et activités aquatiques dans des lieux préservés.",
+
+    "sejourPage.dining.title": "Tables Privées & Expériences Gastronomiques",
+    "sejourPage.dining.description":
+      "Dîner au cœur d'un palais, déjeuner dans un jardin suspendu ou brunch dans une villa confidentielle… Nos recommandations sont choisies avec goût et exigence, toujours sur mesure.",
+
+    "sejourPage.excursions.title": "Excursions Privilèges",
+    "sejourPage.excursions.description":
+      "Offrez-vous le Maroc dans toute sa splendeur avec nos excursions privées et personnalisées.",
+    "sejourPage.excursions.bullet1": "La majesté de l'Atlas et la vallée de l'Ourika",
+    "sejourPage.excursions.bullet2": "Les cascades d'Ouzoud, joyaux naturels à explorer",
+    "sejourPage.excursions.bullet3":
+      "Le sud marocain en 4x4 privé, pour une immersion exclusive dans les grands espaces",
+
+    "sejourPage.concierge.title": "Une Conciergerie Discrète et Dévouée",
+    "sejourPage.concierge.description":
+      "Notre mission : transformer votre séjour en une collection de souvenirs inoubliables. Disponibles 24h/24, nous sommes votre interlocuteur unique pour un service d'excellence, à chaque instant.",
   },
   en: {
     // Navigation
@@ -529,5 +630,67 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     "contactPage.form.submitting": "Sending...",
     "contactPage.form.success.title": "Message sent successfully!",
     "contactPage.form.success.message": "Thank you for contacting us. We will respond as soon as possible.",
+
+    // Sejour page
+    "nav.sejour": "CUSTOM STAY",
+    "sejourPage.hero.title": "FOR A TAILORED STAY",
+    "sejourPage.hero.subtitle": "Exclusive experiences for an unforgettable stay in Marrakech",
+    "sejourPage.content.title": "EXCLUSIVE SERVICES",
+    "sejourPage.content.subtitle": "Discover our luxury services for an exceptional stay in Marrakech",
+
+    "sejourPage.accommodations.title": "Signature Accommodations",
+    "sejourPage.accommodations.description":
+      "We select for you the most prestigious addresses in Marrakech: confidential villas, charming riads or renowned hotels. Each place is carefully chosen for its refinement, atmosphere and impeccable service.",
+
+    "sejourPage.transfers.title": "Elegant Transfers",
+    "sejourPage.transfers.description":
+      "Travel with comfort and distinction. Personalized welcome at the airport, private transfers in luxury sedan or premium 4x4... Our drivers are at your service, at any time.",
+
+    "sejourPage.experiences.title": "Exceptional Moments & Unique Experiences",
+    "sejourPage.experiences.description":
+      "Experience unforgettable moments through our exclusive experiences, designed to help you discover Marrakech from a privileged angle.",
+
+    "sejourPage.experiences.wellness.title": "Royal Wellness",
+    "sejourPage.experiences.wellness.description":
+      "Exclusive access to the most sumptuous spas in the ochre city, true havens of peace combining Moroccan traditions and excellent care.",
+
+    "sejourPage.experiences.desert.title": "Desert Escape",
+    "sejourPage.experiences.desert.description":
+      "Discover the magic of the Moroccan desert through our exclusive experiences.",
+    "sejourPage.experiences.desert.bullet1":
+      "Private dinner under the stars: in a fairy-tale setting, experience an evening worthy of the Arabian Nights.",
+    "sejourPage.experiences.desert.bullet2":
+      "Luxury overnight in a bivouac: silence, elegance and starry sky... a rare luxury in the heart of the dunes.",
+
+    "sejourPage.experiences.adventures.title": "Signature Adventures",
+    "sejourPage.experiences.adventures.description": "Exclusive activities for all tastes and desires.",
+    "sejourPage.experiences.adventures.bullet1":
+      "Quad or buggy excursions in the lunar landscapes of palm groves and desert plateaus.",
+    "sejourPage.experiences.adventures.bullet2":
+      "Hot air balloon flight at dawn, to embrace Marrakech and the Atlas with a single glance.",
+    "sejourPage.experiences.adventures.bullet3":
+      "Golf sessions on exceptional greens between luxury, sport and nature.",
+    "sejourPage.experiences.adventures.bullet4": "Private electric scooter rides in the medina or palm grove.",
+    "sejourPage.experiences.adventures.bullet5":
+      "Private Moroccan cooking classes, with a chef at home or immersed in an exceptional riad.",
+    "sejourPage.experiences.adventures.bullet6":
+      "VIP karting: thrills in a secure setting, perfect for families or groups of friends.",
+    "sejourPage.experiences.adventures.bullet7": "Water skiing and aquatic activities in preserved locations.",
+
+    "sejourPage.dining.title": "Private Tables & Gastronomic Experiences",
+    "sejourPage.dining.description":
+      "Dinner in the heart of a palace, lunch in a hanging garden or brunch in a confidential villa... Our recommendations are chosen with taste and high standards, always tailored to your preferences.",
+
+    "sejourPage.excursions.title": "Privileged Excursions",
+    "sejourPage.excursions.description":
+      "Treat yourself to Morocco in all its splendor with our private and personalized excursions.",
+    "sejourPage.excursions.bullet1": "The majesty of the Atlas and the Ourika Valley",
+    "sejourPage.excursions.bullet2": "The Ouzoud waterfalls, natural jewels to explore",
+    "sejourPage.excursions.bullet3":
+      "Southern Morocco in a private 4x4, for an exclusive immersion in wide open spaces",
+
+    "sejourPage.concierge.title": "A Discreet and Dedicated Concierge Service",
+    "sejourPage.concierge.description":
+      "Our mission: to transform your stay into a collection of unforgettable memories. Available 24/7, we are your single point of contact for excellent service, at every moment.",
   },
 }

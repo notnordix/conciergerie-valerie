@@ -10,7 +10,7 @@ export default function ContactHero() {
     <section className="relative w-full">
       <div className="w-full aspect-[3/4] sm:aspect-[16/9] md:aspect-[21/6] relative overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1600&auto=format&fit=crop"
+          src="/5.jpg"
           alt="Contact us"
           className="w-full h-full object-cover"
           loading="eager"
